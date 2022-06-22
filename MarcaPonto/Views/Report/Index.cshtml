@@ -1,0 +1,119 @@
+﻿<div id="outer" class="row">
+    <aside class="col-sm-12 col-md-12 col-lg-12">
+        <div class="card">
+            <article class="card-body">
+                <h4 class="card-title mb-4 mt-1">Relatório de Ponto</h4>
+                <form>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="employee">Funcionário</label>
+                                <select class="form-control" id="employee">
+                                    <option>Gisele Gi</option>
+                                    <option>Ladrão de gorjeta</option>
+                                    <option>Gerente</option>
+                                    <option>Garçon aleatório 1</option>
+                                    <option>Garçon aleatório 2</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="form-group">
+                                <label for="beginDate">Data início</label>
+                                <input id="beginDate" type="date" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="form-group">
+                                <label for="endDate">Data fim</label>
+                                <input id="endDate" type="date" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-3 col-lg-3 align-self-end">
+                            <div class="form-group ">
+                                <button type="submit" class="btn btn-primary" asp-controller="Option" asp-action="Index">Buscar dados</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="table-responsive">
+                                <table class="table active table-bordered table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th class="text-center">Data</th>
+                                            <th class="text-center">Hora</th>
+                                            <th class="text-center">Tipo</th>
+                                            <th class="text-center">Descrição </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center">21/06/2022</td>
+                                            <td class="text-center">09:00</td>
+                                            <td class="text-center">Entrada</td>
+                                            <td class="text-center"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">21/06/2022</td>
+                                            <td class="text-center">09:50</td>
+                                            <td class="text-center">Saída</td>
+                                            <td class="text-center">Fumar</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">21/06/2022</td>
+                                            <td class="text-center">10:15</td>
+                                            <td class="text-center">Entrada</td> 
+                                            <td class="text-center">Retorno fumo</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">21/06/2022</td>
+                                            <td class="text-center">13:00</td>
+                                            <td class="text-center">Saída</td>
+                                            <td class="text-center">Almoço</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">21/06/2022</td>
+                                            <td class="text-center">14:00</td>
+                                            <td class="text-center">Entrada</td>
+                                            <td class="text-center">Retorno Almoço</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">21/06/2022</td>
+                                            <td class="text-center">15:40</td>
+                                            <td class="text-center">Saída</td>
+                                            <td class="text-center">Lanche</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">21/06/2022</td>
+                                            <td class="text-center">16:00</td>
+                                            <td class="text-center">Entrada</td>
+                                            <td class="text-center">Retorno Lanche</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">21/06/2022</td>
+                                            <td class="text-center">18:00</td>
+                                            <td class="text-center">Saída</td>
+                                            <td class="text-center"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row float-right">
+                        <div class="col-4">
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-info " asp-controller="Option" asp-action="Index">Voltar</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </article>
+        </div>
+    </aside>
+</div>
+
+

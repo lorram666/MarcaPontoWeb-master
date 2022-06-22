@@ -1,0 +1,40 @@
+﻿<div id="outer" class="row">
+    <aside class="col-sm-4 col-lg-6">
+        <div class="card">
+            <article class="card-body">
+                <h4 class="card-title mb-4 mt-1">Registar ponto</h4>
+                <form>
+                    <div class="form-group">
+                        <label for="employee">Funcionário</label>
+                        <select class="form-control" id="employee">
+                            <option>Gisele Gi</option>
+                            <option>Ladrão de gorjeta</option>
+                            <option>Gerente</option>
+                            <option>Garçon aleatório 1</option>
+                            <option>Garçon aleatório 2</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="type">Situação</label>
+                        <select class="form-control" id="type">
+                            <option>Entrada</option>
+                            <option>Saída</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Descrição</label>
+                        <input type="text" class="form-control" id="description" placeholder="Breve descrição">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block"> Registar </button>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-info btn-block" asp-controller="Option" asp-action="Index">Voltar</button>
+                    </div>
+                </form>
+            </article>
+        </div>
+    </aside>
+</div>
+
+

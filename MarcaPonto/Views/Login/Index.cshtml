@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Login";  
+}
+   
+<div id="outer" class="row">
+    <aside class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card">
+            <article class="card-body">
+                <h4 class="card-title mb-4 mt-1">Entrar</h4>
+                <form>
+                    <div class="form-group">
+                        <label>Utilizador</label>
+                        <input name="" class="form-control" placeholder="Digite o utilizador" type="text">
+                    </div>  
+                    <div class="form-group">
+                        <a class="float-right" href="#">Esqueci a senha</a>
+                        <label>Senha</label>
+                        <input class="form-control" placeholder="******" type="password">
+                    </div>
+                    <div class="form-group">
+                        <div class="checkbox">
+                            <label> <input type="checkbox"> Permanecer conectado </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block" asp-controller="Option" asp-action="Index"> Login </button>
+                    </div>
+                </form>
+            </article>
+        </div>  
+
+    </aside>
+
+</div>  
